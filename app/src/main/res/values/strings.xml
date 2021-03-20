@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">ရှောင်တရုတ်</string>
+    <string name="ef_ok">@string/ok</string>
+    <string name="ef_name">ဘားကုဒ်ပါသည့်ပုံရွေးရန်</string>
+    <string name="ef_msg_no_write_external_permission">ဓာတ်ပုံများရွေးရန်အတွက် Storage Permission ကိုခွင့်ပြုပေးရန်လိုအပ်ပါသည်။</string>
+
+    <!--General-->
+    <string name="dev_email">testerkhun@gmail.com</string>
+    <string name="req_camera_permission">"ဘားကုဒ်အမှတ်စစ်ဆေးရန်
+ကင်မရာလုပ်ဆောင်ချက်အား
+အမြဲတမ်းခွင့်ပြုပေးရန်လိုအပ်ပါသည်။"</string>
+    <string name="yes">ဟုတ်</string>
+    <string name="ok">ဟုတ်ပြီ</string>
+    <string name="notice">အသိပေးချက်</string>
+    <string name="contact">ဆက်သွယ်မည်</string>
+    <string name="help">အကူအညီ</string>
+    <string name="close">ထွက်မည်</string>
+    <string name="exit_msg">"ကျန်ရှိနေသေးသည့် **အက်ပ်အမည်များ**ကို ပေးပို့ခြင်းဖြင့်ကူညီနိုင်ပါသည်။\\
+**ဝေဖန်အကြံပြုချက်များ**ကိုလည်း အချိန်မရွေးပေးပို့နိုင်ပါသည်။"</string>
+
+    <string name="no_apps">ဖြုတ်ရမည့်အက်ပ်မရှိပါ။</string>
+
+    <!--Fragment-->
+    <string name="title_products">@string/app_name</string>
+    <string name="title_scanner">ဘားကုဒ်စနစ်ဖြင့်စစ်ဆေးမည်</string>
+    <string name="title_apps">အက်ပ်များ</string>
+    <string name="fragments_app_label">ဖြုတ်သင့်သောတရုတ်အက်ပ်များ</string>
+
+    <!--Themes-->
+    <string name="dark_auto">အလိုအလျောက်</string>
+    <string name="dark">အမှောင်</string>
+    <string name="light">အလင်း</string>
+    <string name="let_apply">အတည်ပြုမည်</string>
+    <string name="app_des">ရှောင်ရမည့် တရုတ်ထုတ်ကုန်များ</string>
+
+    <!--Scanner-->
+    <string name="is_china_product">တရုတ်ထုတ်ကုန်ပစ္စည်းဖြစ်ပါသည်။</string>
+    <string name="is_china_product_msg">"**မဖြစ်မနေရှောင်ပါ။\\
+လုံးဝ(လုံးဝ) အားမပေးပါနှင့်!!!**"</string>
+    <string name="is_not_china_product">တရုတ်ထုတ်ကုန်ပစ္စည်းမဟုတ်ပါ။</string>
+    <string name="is_not_china_product_msg">"ဒါပေမယ့်ပိုသေချာအောင် ပစ္စည်းပေါ်မှာ\\
+**Made In China** စာတန်းကိုရှာကြည့်ပါ။\\
+တွေ့လျှင်**တရုတ်ထုတ်ကုန်ပစ္စည်း**လို့မှတ်ယူနိုင်ပါသည်။"</string>
+    <string name="no_barcode_from_photo">သင်ရွေးလိုက်သောဓာတ်ပုံတွင် ဘားကုဒ်အမှတ်ရှာမတွေ့ပါ။</string>
+    <string name="why_is_china_product">"တရုတ်နိုင်ငံထုတ်ကုန်များ၏\\
+ဘားကုဒ်အမှတ်ရှေ့ဆုံး ၃ လုံးသည်\\
+**690** မှ **699** အထိဂဏန်းများဖြင့်\\
+စတင်ရမည်ဟုသတ်မှတ်ထားသည်။\\
+ယခုသင်စစ်လိုက်သောဘားကုဒ်အမှတ်မှာ\\
+**%s** ဖြစ်သည့်အတွက်\\
+**%s**"</string>
+    <string name="searching_barcode_from_photo">ဘားကုဒ်အမှတ်ရှာဖွေနေပါသည်…</string>
+    <string name="how_to_detect">ဘယ်လိုစစ်တာလဲ ?</string>
+    <string name="uninstall_app_notice">မဖြုတ်ရက်လျှင် အသက်ပေးလိုက်ရတဲ့သူတွေကိုအားနာပါ။</string>
+    <string name="scan_tip">"စစ်လိုသည့်ပစ္စည်းပေါ်တွင်ရှိသော**ဘားကုဒ်**ကို
+**ကင်မရာဖြင့်** သေချာ**ချိန်ပေး**ပါ။
+**ဂဏန်းသီးသန့်**ပါဝင်သော **ဘားကုဒ်**ဖြစ်ရပါမည်။
+**Made In China** စာတန်းကိုဦးစားပေးရှာဖွေပါ။
+မတွေ့မှသာလျှင် **ဘားကုဒ်ဖြင့်စစ်ဆေးရန်ကြိုးစားပါ။**
+တရုတ်ထုတ်ကုန်ပစ္စည်းများ၏ဘားကုဒ်အမှတ်မှာ
+**690 မှ 699 အတွင်းရှိဂဏန်းများဖြင့် စတင်ကြသည်။**"</string>
+    <string name="not_this_barcode">ယခုဘားကုဒ်မဟုတ်သေးပါ။</string>
+
+    <string name="lol">"တရုတ်ထုတ်ကုန်ပစ္စည်းဆိုသည်မှာ\\
+**Made In China** များကိုသာဆိုလိုပါသည်။\\
+**Taiwan** နှင့် **Hong Kong** မပါဝင်ပါ။"</string>
+    <string name="lol_ok">
+        "တရုတ်ထုတ်ကုန်ပစ္စည်းဆိုသည်မှာ
+Made In China များကိုသာဆိုလိုပါသည်။
+Taiwan နှင့် Hong Kong မပါဝင်ပါ။"
+    </string>
+
+
+    <!--Update-->
+    <string name="settings">အပြင်အဆင်များ</string>
+    <string name="latest_version">နောက်ဆုံးဗားရှင်းဖြစ်နေပါပြီ။</string>
+    <string name="check_update">ဗားရှင်းအသစ်စစ်ဆေးရန်</string>
+    <string name="checking">စစ်ဆေးနေပါသည်။</string>
+    <string name="play_store">Play Store</string>
+    <string name="other">Other</string>
+    <string name="unknown_error">စိတ်မကောင်းပါဘူး။</string>
+    <string name="app_gallery">AppGallery</string>
+    <string name="cancel">မလုပ်တော့ပါ</string>
+    <string name="toggle_flash">ဖလက်ရှ်မီး</string>
+    <string name="toggle_focus">မြင်ကွင်း</string>
+    <string name="toggle_fix_huawei">ကင်မရာပြင်ခြင်း</string>
+    <string name="toggle_insert_photo">ပုံပေါ်မှတဆင့်</string>
+
+    <!--About-->
+    <string name="change_color">အရောင်ပြောင်းရန်</string>
+    <string name="check_update_url">https://tayatsote.blogspot.com/p/update.html</string>
+    <string name="about_text">"အမည် = **ရှောင်တရုတ်**\\
+ဗားရှင်း = **၁.၀ [BETA]**\\
+ရက်စွဲ = **၂၁၊ ၀၃၊ ၂၀၂၁**\\
+ဖန်တီးသူ = **ခွန်ထက်နိုင်**
+
+✅ ယခုအက်ပ်သည် အသုံးပြုသူများ၏\\
+အချက်အလက်များကို ရယူခြင်း\\
+စုဆောင်းသိမ်းဆည်းခြင်း\\
+လုံးဝ(လုံးဝ) မပြုလုပ်ပါ။\\
+🙆‍♂️ ဖက်ဒရယ်ဒီမိုကရေစီလိုလားသော\\
+ပအိုဝ်းလူမျိုး Generation Z လူငယ်(**စော်မရှိ**) မှ ဖန်တီးထားတာပါ :3\\
+**#HtetzMakeit**"</string>
+
+</resources>

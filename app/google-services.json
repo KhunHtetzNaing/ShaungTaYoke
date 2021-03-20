@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "393378429458",
+    "project_id": "malvpn",
+    "storage_bucket": "malvpn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393378429458:android:eb4652b030536ec3a3f6cb",
+        "android_client_info": {
+          "package_name": "com.htetznaing.boycottchina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393378429458-13eeedeipt2secmcj082bfti7n5216ir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaKEDywtbdt91jbUn2NHhej_Ll03gSbqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393378429458-13eeedeipt2secmcj082bfti7n5216ir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393378429458:android:5a055ad877072427a3f6cb",
+        "android_client_info": {
+          "package_name": "com.mal.vpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393378429458-13eeedeipt2secmcj082bfti7n5216ir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaKEDywtbdt91jbUn2NHhej_Ll03gSbqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393378429458-13eeedeipt2secmcj082bfti7n5216ir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

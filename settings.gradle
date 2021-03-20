@@ -1,0 +1,5 @@
+include ':imagepicker2'
+include ':MaterialStyledDialogs'
+include ':tester'
+include ':app'
+rootProject.name = "ငါလိုးမတရုတ်"

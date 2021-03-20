@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/toggle_flash" android:id="@id/menu_flash" android:icon="@drawable/ic_flash_off" app:showAsAction="always"/>
+    <item android:title="@string/toggle_focus" android:id="@id/menu_auto_focus" android:icon="@drawable/ic_center_focus_on" app:showAsAction="always"/>
+    <item android:title="@string/toggle_fix_huawei" android:id="@+id/fix" android:icon="@drawable/ic_auto_fix_off" app:showAsAction="always"/>
+    <item android:title="@string/toggle_insert_photo" android:id="@+id/insert" android:icon="@drawable/ic_insert_photo" app:showAsAction="always"/>
+</menu>

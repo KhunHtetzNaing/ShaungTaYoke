@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.fragments.apps.AppsFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <TextView
+          android:layout_marginTop="@dimen/text_padding"
+          android:id="@+id/app_notice"
+          android:gravity="center"
+          android:textColor="@color/main"
+          android:text="@string/uninstall_app_notice"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:layout_below="@id/app_notice"
+          android:clipToPadding="false"
+          android:paddingBottom="@dimen/default_padding"
+          android:layout_marginBottom="@dimen/default_padding_half"
+          android:layout_marginLeft="@dimen/default_padding_half"
+          android:layout_marginRight="@dimen/default_padding_half"
+          android:id="@+id/recycler_app"
+          tools:listitem="@layout/apps_item"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/>
+
+   </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

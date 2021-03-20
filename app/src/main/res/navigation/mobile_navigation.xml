@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_products">
+
+    <fragment
+        android:id="@id/navigation_products"
+        android:name="com.htetznaing.boycottchina.activities.fragments.products.HomeFragment"
+        android:label="@string/title_products"
+        tools:layout="@layout/fragment_products" />
+
+    <fragment
+        android:id="@id/navigation_apps"
+        android:name="com.htetznaing.boycottchina.activities.fragments.apps.AppsFragment"
+        android:label="@string/fragments_app_label"
+        tools:layout="@layout/fragment_apps" />
+</navigation>

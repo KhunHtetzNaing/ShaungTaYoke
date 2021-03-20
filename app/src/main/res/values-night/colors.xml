@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main">#D32F2F</color>
+    <color name="main_item_selected">#1AD32F2F</color>
+    <color name="on_primary">#FF000000</color>
+
+    <!--Red Theme-->
+    <color name="old_theme">#109c06</color>
+    <color name="old_theme_item_bg">#1B5E20</color>
+
+    <!--Pink Theme-->
+    <color name="pink_theme">#C2185B</color>
+    <color name="pink_theme_item_bg">#1AC2185B</color>
+
+    <!--Purple Theme-->
+    <color name="purple_theme">#7B1FA2</color>
+    <color name="purple_theme_item_bg">#1A7B1FA2</color>
+
+    <!--Deep Purple Theme-->
+    <color name="deep_purple_theme">#512DA8</color>
+    <color name="deep_purple_theme_item_bg">#1A512DA8</color>
+
+    <!--Indigo Theme-->
+    <color name="indigo_theme">#303F9F</color>
+    <color name="indigo_theme_item_bg">#1A303F9F</color>
+
+    <!--Blue Theme-->
+    <color name="blue_theme">#1976D2</color>
+    <color name="blue_theme_item_bg">#1A1976D2</color>
+
+    <!--Light Blue Theme-->
+    <color name="light_blue_theme">#0288D1</color>
+    <color name="light_blue_theme_item_bg">#1A0288D1</color>
+
+    <!--Cyan Theme-->
+    <color name="cyan_theme">#0097A7</color>
+    <color name="cyan_theme_item_bg">#1A0097A7</color>
+
+    <!--Teal Theme-->
+    <color name="teal_theme">#00796B</color>
+    <color name="teal_theme_item_bg">#1A00796B</color>
+
+    <!--Green Theme-->
+    <color name="green_theme">#388E3C</color>
+    <color name="green_theme_item_bg">#1A388E3C</color>
+
+    <!--Lime Theme-->
+    <color name="lime_theme">#AFB42B</color>
+    <color name="lime_theme_item_bg">#1AAFB42B</color>
+
+    <!--Yellow Theme-->
+    <color name="yellow_theme">#FBC02D</color>
+    <color name="yellow_theme_item_bg">#1AFBC02D</color>
+
+    <!--Amber Theme-->
+    <color name="amber_theme">#FFA000</color>
+    <color name="amber_theme_item_bg">#1AFFA000</color>
+
+    <!--Orange Theme-->
+    <color name="orange_theme">#F57C00</color>
+    <color name="orange_theme_item_bg">#1AF57C00</color>
+
+    <!--Deep Orange Theme-->
+    <color name="deep_orange_theme">#E64A19</color>
+    <color name="deep_orange_theme_item_bg">#1AE64A19</color>
+</resources>

@@ -1,0 +1,140 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ငါလိုးမတရုတ်" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main</item>
+        <item name="colorPrimaryVariant">@color/main</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/main</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/Custom.ActionBar</item>
+        <item name="fontFamily">@font/mm</item>
+    </style>
+
+    <style name="Custom.ActionBar" parent="Widget.MaterialComponents.Light.ActionBar.Solid">
+        <item name="background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="OLD_THEME">
+        <item name="colorAccent">@color/old_theme</item>
+        <item name="colorPrimaryVariant">@color/old_theme</item>
+        <item name="colorPrimary">@color/old_theme</item>
+    </style>
+
+    <style name="PINK_THEME">
+        <item name="colorAccent">@color/pink_theme</item>
+        <item name="colorPrimaryVariant">@color/pink_theme</item>
+        <item name="colorPrimary">@color/pink_theme</item>
+    </style>
+
+    <style name="PURPLE_THEME">
+        <item name="colorAccent">@color/purple_theme</item>
+        <item name="colorPrimaryVariant">@color/purple_theme</item>
+        <item name="colorPrimary">@color/purple_theme</item>
+    </style>
+
+    <style name="DEEP_PURPLE_THEME">
+        <item name="colorAccent">@color/deep_purple_theme</item>
+        <item name="colorPrimaryVariant">@color/deep_purple_theme</item>
+        <item name="colorPrimary">@color/deep_purple_theme</item>
+    </style>
+
+    <style name="INDIGO_THEME">
+        <item name="colorAccent">@color/indigo_theme</item>
+        <item name="colorPrimaryVariant">@color/indigo_theme</item>
+        <item name="colorPrimary">@color/indigo_theme</item>
+    </style>
+
+    <style name="BLUE_THEME">
+
+        <item name="colorAccent">@color/blue_theme</item>
+        <item name="colorPrimaryVariant">@color/blue_theme</item>
+        <item name="colorPrimary">@color/blue_theme</item>
+    </style>
+
+    <style name="LIGHT_BLUE_THEME">
+
+        <item name="colorAccent">@color/light_blue_theme</item>
+        <item name="colorPrimaryVariant">@color/light_blue_theme</item>
+        <item name="colorPrimary">@color/light_blue_theme</item>
+    </style>
+
+    <style name="CYAN_THEME">
+
+        <item name="colorAccent">@color/cyan_theme</item>
+        <item name="colorPrimaryVariant">@color/cyan_theme</item>
+        <item name="colorPrimary">@color/cyan_theme</item>
+    </style>
+
+    <style name="TEAL_THEME">
+
+        <item name="colorAccent">@color/teal_theme</item>
+        <item name="colorPrimaryVariant">@color/teal_theme</item>
+        <item name="colorPrimary">@color/teal_theme</item>
+    </style>
+
+    <style name="GREEN_THEME">
+
+        <item name="colorAccent">@color/green_theme</item>
+        <item name="colorPrimaryVariant">@color/green_theme</item>
+        <item name="colorPrimary">@color/green_theme</item>
+    </style>
+
+    <style name="LIME_THEME">
+
+        <item name="colorAccent">@color/lime_theme</item>
+        <item name="colorPrimaryVariant">@color/lime_theme</item>
+        <item name="colorPrimary">@color/lime_theme</item>
+    </style>
+
+    <style name="YELLOW_THEME">
+
+        <item name="colorAccent">@color/yellow_theme</item>
+        <item name="colorPrimaryVariant">@color/yellow_theme</item>
+        <item name="colorPrimary">@color/yellow_theme</item>
+    </style>
+
+    <style name="AMBER_THEME">
+
+        <item name="colorAccent">@color/amber_theme</item>
+        <item name="colorPrimaryVariant">@color/amber_theme</item>
+        <item name="colorPrimary">@color/amber_theme</item>
+    </style>
+
+    <style name="ORANGE_THEME">
+
+        <item name="colorAccent">@color/orange_theme</item>
+        <item name="colorPrimaryVariant">@color/orange_theme</item>
+        <item name="colorPrimary">@color/orange_theme</item>
+    </style>
+
+    <style name="DEEP_ORANGE_THEME">
+        <item name="colorAccent">@color/deep_orange_theme</item>
+        <item name="colorPrimaryVariant">@color/deep_orange_theme</item>
+        <item name="colorPrimary">@color/deep_orange_theme</item>
+    </style>
+
+    <style name="ef_BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppOverlayTheme" parent="Theme.ငါလိုးမတရုတ်">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="TransparentToolbar" parent="Theme.ငါလိုးမတရုတ်">
+        <item name="iconTint">#fff</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support Library compability -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+</resources>
