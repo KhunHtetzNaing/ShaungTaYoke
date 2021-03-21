@@ -21,7 +21,9 @@
 ပအိုဝ်း Generation Z လူငယ်(စော်မရှိ) မှ ဖန်တီးထားတာပါ :3  
   
 **#HtetzMakeit**  
-  
+
+## ရယူန်ရန်
+https://shaung-tayoke.blogspot.com/
 
 ## License
 
