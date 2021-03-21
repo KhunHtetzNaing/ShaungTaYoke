@@ -14,7 +14,6 @@
             <option value="$PROJECT_DIR$/MaterialStyledDialogs" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/imagepicker2" />
-            <option value="$PROJECT_DIR$/tester" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
