@@ -70,7 +70,6 @@ Made In China များကိုသာဆိုလိုပါသည်။
 Taiwan နှင့် Hong Kong မပါဝင်ပါ။"
     </string>
 
-
     <!--Update-->
     <string name="settings">အပြင်အဆင်များ</string>
     <string name="latest_version">နောက်ဆုံးဗားရှင်းဖြစ်နေပါပြီ။</string>
@@ -85,21 +84,20 @@ Taiwan နှင့် Hong Kong မပါဝင်ပါ။"
     <string name="toggle_focus">မြင်ကွင်း</string>
     <string name="toggle_fix_huawei">ကင်မရာပြင်ခြင်း</string>
     <string name="toggle_insert_photo">ပုံပေါ်မှတဆင့်</string>
-
     <!--About-->
     <string name="change_color">အရောင်ပြောင်းရန်</string>
     <string name="check_update_url">https://tayatsote.blogspot.com/p/update.html</string>
     <string name="about_text">"အမည် = **ရှောင်တရုတ်**\\
-ဗားရှင်း = **၁.၀ [BETA]**\\
-ရက်စွဲ = **၂၁၊ ၀၃၊ ၂၀၂၁**\\
+ဗားရှင်း = **၁.၁ [BETA]**\\
+ရက်စွဲ = **၁၇၊ ၀၆၊ ၂၀၂၁**\\
 ဖန်တီးသူ = **ခွန်ထက်နိုင်**
 
 ✅ ယခုအက်ပ်သည် အသုံးပြုသူများ၏\\
 အချက်အလက်များကို ရယူခြင်း\\
 စုဆောင်းသိမ်းဆည်းခြင်း\\
 လုံးဝ(လုံးဝ) မပြုလုပ်ပါ။\\
-🙆‍♂️ ဖက်ဒရယ်ဒီမိုကရေစီလိုလားသော\\
-ပအိုဝ်းလူမျိုး Generation Z လူငယ်(**စော်မရှိ**) မှ ဖန်တီးထားတာပါ :3\\
 **#HtetzMakeit**"</string>
+    <string name="do_not_ask_again">နောက်တစ်ကြိမ်ထပ်မမေးပါနဲ့</string>
+    <string name="uninstall_msg">%s ကို ဖြုတ်မှာသေချာပါသလား ?</string>
 
 </resources>

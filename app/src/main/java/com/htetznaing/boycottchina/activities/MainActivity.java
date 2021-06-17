@@ -116,17 +116,15 @@ public class MainActivity extends BaseActivity {
     @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.action_settings:
-                showSettings();
-                break;
+        if (item.getItemId() == R.id.action_settings) {
+            showSettings();
         }
         return super.onOptionsItemSelected(item);
     }
 
     private void showSettings() {
         new MyMaterialDialog(this)
-                .setHeaderDrawable(R.drawable.ic_settings)
+                .setHeaderDrawable(R.drawable.ic_info)
                 .setTextIsSelectable(true)
                 .setMessage(MyApplication.markwon.toMarkdown(getString(R.string.about_text)))
                 .withDialogAnimation(true)

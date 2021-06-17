@@ -1,16 +1,21 @@
 package com.htetznaing.boycottchina.activities.fragments.apps;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.preference.PreferenceManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,10 +25,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import com.github.javiersantos.materialstyleddialogs.MaterialStyledDialog;
 import com.htetznaing.boycottchina.Constants;
 import com.htetznaing.boycottchina.R;
 import com.htetznaing.boycottchina.adapters.AppRecyclerAdapter;
+import com.htetznaing.boycottchina.dialogs.MyMaterialDialog;
 import com.htetznaing.boycottchina.items.AppItem;
+
+import org.jetbrains.annotations.NotNull;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +48,8 @@ public class AppsFragment extends Fragment {
     private AppItem currentItem;
     private int colorPrimary;
     private TextView app_notice;
+    private SharedPreferences sharedPreferences;
+    private final String DO_NOT_ASK_AGAIN = "dont_ask";
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_apps, container, false);
@@ -46,6 +58,7 @@ public class AppsFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(requireContext());
     }
 
     @Override
@@ -58,7 +71,7 @@ public class AppsFragment extends Fragment {
             @Override
             public void clicked(AppItem item) {
                 currentItem = item;
-                startActivityForResult(Constants.uninstall(currentItem.getPackageName()),UNINSTALL_CODE);
+                askToUninstall();
             }
         });
 
@@ -80,6 +93,38 @@ public class AppsFragment extends Fragment {
         updateFoundedList();
         swipeRefreshLayout.setRefreshing(true);
         loadApps();
+    }
+
+    private void askToUninstall() {
+        if (sharedPreferences.getBoolean(DO_NOT_ASK_AGAIN,false)){
+            uninstall();
+        }else {
+            View customView = getLayoutInflater().inflate(R.layout.uninstall_dialog, null);
+            ((TextView) customView.findViewById(R.id.msg)).setText(getString(R.string.uninstall_msg, currentItem.getName()));
+            ((CheckBox)customView.findViewById(R.id.do_not_ask)).setOnCheckedChangeListener((buttonView, isChecked) -> sharedPreferences.edit().putBoolean(DO_NOT_ASK_AGAIN,isChecked).apply());
+
+            new MyMaterialDialog(requireActivity())
+                    .setCancelable(false)
+                    .setIcon(currentItem.getIcon())
+                    .setView(customView)
+                    .setPositiveButton(R.string.yes, new MyMaterialDialog.OnClickedListener() {
+                        @Override
+                        public void clicked(@NotNull MaterialStyledDialog dialog) {
+                            uninstall();
+                        }
+                    })
+                    .setNegativeButton(R.string.cancel, new MyMaterialDialog.OnClickedListener() {
+                        @Override
+                        public void clicked(@NotNull MaterialStyledDialog dialog) {
+                            Toast.makeText(requireContext(), R.string.uninstall_app_notice, Toast.LENGTH_SHORT).show();
+                        }
+                    })
+                    .show();
+        }
+    }
+
+    private void uninstall(){
+        startActivityForResult(Constants.uninstall(currentItem.getPackageName()),UNINSTALL_CODE);
     }
 
     @Override

@@ -49,7 +49,6 @@
         <TextView
             android:maxLines="1"
             android:ellipsize="end"
-            android:fontFamily="@font/mm"
             android:id="@+id/name"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
             android:text="@string/app_name"
@@ -59,7 +58,6 @@
         <TextView
             android:maxLines="1"
             android:ellipsize="end"
-            android:fontFamily="@font/mm"
             android:id="@+id/size"
             android:text="@string/app_des"
             android:layout_width="wrap_content"
